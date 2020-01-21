@@ -21,4 +21,9 @@ public class OktaDemoAppApplication {
 	public String getUsersEmailAddress(Principal principal) {
 		return "Hello your Email address is: "+principal.getName();
 	}
+	
+	@GetMapping("/logout")
+	public String logout(Principal principal) {
+		return "Hello your Email address is: "+principal.getName();
+	}
 }

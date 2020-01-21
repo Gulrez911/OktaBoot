@@ -11,6 +11,7 @@ public class OktaDemoAppApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		System.out.println("Test...");
 	}
 
 }
